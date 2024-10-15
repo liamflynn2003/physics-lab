@@ -1,0 +1,4 @@
+function init(self)
+	crateCount = 0
+	crateHitFloor = 0
+end

@@ -1,0 +1,3 @@
+function init(self)
+	floorID = go.get_id()
+end

@@ -1,0 +1,4 @@
+function init(self)
+	local xPos = go.get_position().x
+	go.animate(".", "position.x", go.PLAYBACK_LOOP_PINGPONG, xPos - 100, go.EASING_LINEAR, 5)
+end
